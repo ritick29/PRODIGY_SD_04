@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+#sudokuGrid {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#sudokuGrid td {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+.grid-input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 16px;
+}
